@@ -1,12 +1,18 @@
 <?php
+// Arquivo: app/controllers/HomeController.php
 
 namespace App\Controllers;
 
-class HomeController
+use App\Core\Controller;
+
+class HomeController extends Controller
 {
     public function index()
     {
-        // Aqui você pode adicionar a lógica necessária para a página inicial
-        echo "Bem-vindo à página inicial!";
+        // Exemplo de como usar o Twig para renderizar uma view
+        $template = $this->twig->load('home/index.twig');
+        echo $template->render([
+            'title' => 'Página Inicial'
+        ]);
     }
 }
