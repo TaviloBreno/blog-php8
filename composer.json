@@ -1,0 +1,17 @@
+{
+    "name": "breno/projeto",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tavilo Breno",
+            "email": "breno_wk2@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.*"
+    }
+}
