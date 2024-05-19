@@ -1,0 +1,4 @@
+# Arquivo: .htaccess (na raiz do projeto)
+
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L]

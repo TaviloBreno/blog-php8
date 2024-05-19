@@ -1,0 +1,25 @@
+/* Definições de fonte */
+$font-family-base: Arial, sans-serif;
+$font-size-base: 16px;
+
+/* Títulos */
+h1 {
+  font-size: 2em; /* Tamanho de fonte para h1 */
+  margin-bottom: 0.5em; /* Espaçamento abaixo de h1 */
+}
+
+h2 {
+  font-size: 1.5em; /* Tamanho de fonte para h2 */
+  margin-bottom: 0.5em; /* Espaçamento abaixo de h2 */
+}
+
+/* Parágrafos */
+p {
+  line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+/* Links */
+a {
+  color: blue; /* Cor padrão para links */
+  text-decoration: underline; /* Sublinhado para links */
+}

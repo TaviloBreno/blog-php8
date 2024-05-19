@@ -1,6 +1,4 @@
 <?php
-// Arquivo: app/controllers/HomeController.php
-
 namespace App\Controllers;
 
 use App\Core\Controller;
